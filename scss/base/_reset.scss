@@ -1,0 +1,133 @@
+// import de variables
+@import "../utilidades/variables";
+// import de mixin
+@import "../utilidades/mixin";
+
+
+/* RESET  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+main {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(../img/ronnie-coleman.gif.png);
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100vw;
+
+    &:before {
+        position: absolute;
+        content: "";
+        background-color: black;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        opacity: 0.7;
+    }
+}
+
+.main-content {
+    position: relative;
+    color: whitesmoke;
+}
+
+.footer {
+    height: 50px;
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    font-size: 12px;
+
+}
+
+
+/* Nav BAR from boostrap */
+/* Nav BAR from boostrap */
+/* Nav BAR from boostrap */
+
+
+.navbar {
+    height: 80px;
+    margin: 5px;
+    border-radius: 16px;
+    padding: 0.2rem;
+
+}
+
+.navbar-brand {
+    font-weight: 500;
+    color: #FFCC29;
+    font-size: 24px;
+    transition: 0.8s;
+
+}
+
+.navbar-brand:hover {
+    color: #FFCC29;
+    background-color: #FFCC29;
+    transition: 0.80s;
+    border-radius: 20px;
+}
+
+.login-button {
+    background-color: #FFCC29;
+    color: black;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+
+}
+
+.login-button:hover {
+    background-color: #bd9820e2;
+
+
+}
+
+
+.navbar-toggler-icon {
+    background-color: #FFCC29;
+    border-radius: 20px;
+
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+
+}
+
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+
+.nav-item {
+    font-weight: 500;
+    transition: 0.8s;
+
+}
+
+.nav-item:hover {
+    background-color: #ffcd29e2;
+    border-radius: 80px;
+    transition: 1.5s;
+
+}
+
+/* Nav section ends */

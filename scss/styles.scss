@@ -1,0 +1,12 @@
+// import archivos secundarios
+
+@import "./utilidades/mixin";
+@import "./utilidades/variables";
+
+
+@import"./base/contact";
+@import "./base/index";
+@import "./base/reset";
+@import"./base/products";
+@import "./base/sn";
+@import "./base/buy";
