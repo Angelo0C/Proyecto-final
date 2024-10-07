@@ -63,26 +63,28 @@
 
 .footer-contact {
   position: relative;
-  top: 640px;
+  top: 655px;
   padding: 10px;
   background-color: #000000;
   color: white;
   width: 100vw;
   text-align: center;
   font-size: 14px;
+  bottom: auto;
 }
 
 
 .footer-buy {
-
+  height: 9vh;
   position: relative;
-  top: 860px;
+  top: 875px;
   padding: 10px;
   background-color: #000000;
   color: white;
   width: 100vw;
   text-align: center;
   font-size: 14px;
+  bottom: 0;
 
 }
 
@@ -146,16 +148,17 @@
   }
 
 
- .footer-contact{
-  top: 600px;
-      position: relative;
-      padding: 10px;
-      background-color: #000000;
-      color: white;
-      width: 100vw;
-      text-align: center;
-      font-size: 14px;
- }
+  .footer-contact {
+    top: 600px;
+    position: relative;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    font-size: 14px;
+    bottom: auto;
+  }
 
 }
 
@@ -567,12 +570,13 @@
 main {
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url(../img/ronnie-coleman.gif.png);
+  background-image:  url(../img/gorilla-logo..png) ;
   position: absolute;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: left;
+  background-repeat: repeat;
   width: 100vw;
+  background-size: auto;
+  
 }
 
 main:before {
@@ -941,8 +945,10 @@ h1 {
 
 @media (min-width: 768px) {
   .cart-container {
+    position: relative;
     width: 80%;
-    margin: 100px auto;
+    margin-top: 20rem;
+    margin-bottom: 0;
   }
 
   .cart-item {
@@ -964,20 +970,30 @@ h1 {
 
   .cart-total {
     text-align: right;
-  }  .footer-buy {
-      top: 600px;
-      position: relative;
-      padding: 10px;
-      background-color: #000000;
-      color: white;
-      width: 100vw;
-      text-align: center;
-      font-size: 14px;
-    }
-}
+  }
 
+  .footer-buy {
+    top: 90vh;
+    position: absolute;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    font-size: 14px;
+  }
+}
+  
 /* Estilos para tablet ends*/
 @media (min-width: 1024px) {
+
+  .cart-container {
+    position: relative;
+    width: 80%;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+  }
+
   .remove-btn {
     background-color: #ff4d4d;
     color: white;
@@ -986,13 +1002,14 @@ h1 {
     cursor: pointer;
     border-radius: 5px;
 
-  
+
 
   }
 
   .footer-buy {
-    top: 600px;
-    position: relative;
+    
+    top: 90vh;
+    position: absolute;
     padding: 10px;
     background-color: #000000;
     color: white;
@@ -1001,6 +1018,19 @@ h1 {
     font-size: 14px;
 
   }
+}
+
+.footer-buy {
+  margin-top: 5px;
+  position: absolute;
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  font-size: 14px;
+
 }
 
 /*# sourceMappingURL=styles.css.map */
